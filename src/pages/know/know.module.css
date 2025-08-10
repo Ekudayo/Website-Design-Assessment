@@ -1,0 +1,113 @@
+.know{
+  display: flex;
+  flex-direction: row;
+  margin-top: 4rem;
+  justify-content: center;
+gap: 5rem;
+margin-bottom: 2rem;
+}
+
+.leftContent{
+  display:flex ;
+  flex-direction: row;
+ gap: 1rem;
+
+}
+.leftContent h1{
+font-style: italic;
+font-size: 2rem;
+
+}
+.leftCont{
+  display:flex ;
+  flex-direction: column;
+  justify-content: center;
+  width: 450px;
+}
+
+.line{
+  width: 50px;
+height: 0;
+/* margin-top: 2rem; */
+}
+.know img{
+  width: 350px;
+  height: 380px;
+  border-radius: 2rem;
+}
+.logos{
+  display: flex;
+  justify-content: space-between;
+}
+.support{
+  display: flex;
+gap: 10px;
+}
+.lineTwo{
+width: 900px;
+height: 0;
+margin-top: 13px;
+}
+.logos img{
+width: 80px;
+height: 40px;
+
+}
+@media screen and (max-width: 1100px) {
+  .know {
+    flex-direction: column;
+    align-items: center;
+  }
+ .leftCont p{
+  font-size: 1.5rem;
+ }
+ .support hr{
+  width: 100%;
+ }
+
+}
+@media screen and (max-width: 645px) {
+  .know {
+    flex-direction: column;
+    align-items: center;
+  }
+  .leftContent{
+    justify-content: center;
+    align-items: center;
+  }
+ .leftCont p{
+  font-size: 1.5rem;
+ }
+ .support hr{
+  width: 100%;
+ }
+ .leftContent hr{
+  display: none;
+ }
+.leftCont{
+
+  width: 70%;
+}
+.know img{
+  width: 300px;
+  height: 320px;
+  border-radius: 2rem;
+}
+.logos{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.support .lineTwo{
+  width: 50px;
+  justify-items: center;
+  align-items: center;
+}
+}
+@media (max-width:390px) {
+  .know img{
+width: 250px;
+height: auto;
+  }
+}

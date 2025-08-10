@@ -1,0 +1,11 @@
+.joinButton button {
+  background-color: white; 
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 8rem;
+  height: 2rem;
+  cursor: pointer;
+}

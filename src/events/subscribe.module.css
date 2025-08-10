@@ -1,0 +1,10 @@
+.subscribeButton {
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* width: 5rem;
+  height: 1rem; */
+  cursor: pointer;
+}

@@ -1,0 +1,80 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 4rem;
+  height: 300px;
+  width: 100%;
+  background-color: #344e41;
+}
+.footerNav {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  width: 100%;
+}
+.footer img {
+  width: 80px;
+  height: 80px;
+  margin-top: 4rem;
+}
+.footer ul {
+  margin-top: 5rem;
+}
+.nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.formFilling {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formFilling h1 {
+  width: 100%;
+}
+.for {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+}
+.form input {
+  height: 2rem;
+  width: 200px;
+  border: none;
+}
+@media (max-width: 1040px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    gap: 1rem;
+  }
+
+
+  .nav {
+    font-size: 2rem;
+  }
+.for{
+  font-size: 2.5rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+  .formFilling {
+    gap: 2rem;
+  }
+}
+

@@ -1,0 +1,11 @@
+.donateButton button {
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 4rem;
+  height: 2rem;
+  cursor: pointer;
+}
