@@ -1,4 +1,4 @@
-import styles from "./know.module.css";
+import styles from "../know/know.module.css";
 import Learn from "../../events/Learn.jsx";
 const Know = () => {
   return (

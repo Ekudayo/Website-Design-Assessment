@@ -1,12 +1,11 @@
 import styles from "../home/home.module.css";
 import What from "../../events/What.jsx";
-import Know from "../know/Know.jsx"
+import Know from "../know/Know.jsx";
 import WhatHome from "../whatHome/WhatHome.jsx";
 import Project from "../project/Project.jsx";
 import Spending from "../spending/Spending.jsx";
 import Contribute from "../contribute/Contribute.jsx";
 import Our from "../our/Our.jsx";
-
 
 const Home = () => {
   return (
@@ -24,12 +23,12 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Know/>
-      <WhatHome/>
-      <Project/>
-      <Spending/>
-      <Contribute/>
-      <Our/>
+      <Know />
+      <WhatHome />
+      <Project />
+      <Spending />
+      <Contribute />
+      <Our />
     </div>
   );
 };
