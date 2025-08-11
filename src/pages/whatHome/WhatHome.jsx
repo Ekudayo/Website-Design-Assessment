@@ -1,8 +1,8 @@
 import styles from "../whatHome/whatHome.module.css";
-import icon from "../../assets/Icon.png";
-import iconOne from "../../assets/IconOne.png";
-import iconTwo from "../../assets/IconTwo.png";
-import iconThree from "../../assets/IconThree.png";
+import Icon from "../../assets/icon.png";
+import IconOne from "../../assets/iconOne.png";
+import IconTwo from "../../assets/iconTwo.png";
+import IconThree from "../../assets/iconThree.png";
 import smallBoy from "../../assets/samllboy.png";
 
 const WhatHome = () => {
@@ -18,7 +18,7 @@ const WhatHome = () => {
             varius enim in eros elementum tristique.
           </p>
           <div className={styles.icons}>
-            <img src={icon} alt="icon" />
+            <img src={Icon} alt="icon" />
             <div className={styles.iconText}>
               <h3>Family support</h3>
               <p>
@@ -28,7 +28,7 @@ const WhatHome = () => {
             </div>
           </div>
           <div className={styles.icons}>
-            <img src={iconOne} alt="icon" />
+            <img src={IconOne} alt="icon" />
             <div>
               <h3>Health benefits</h3>
               <p>
@@ -38,7 +38,7 @@ const WhatHome = () => {
             </div>
           </div>
           <div className={styles.icons}>
-            <img src={iconTwo} alt="icon" />
+            <img src={IconTwo} alt="icon" />
             <div>
               <h3>Scholarships</h3>
               <p>
@@ -48,7 +48,7 @@ const WhatHome = () => {
             </div>
           </div>
           <div className={styles.icons}>
-            <img src={iconThree} alt="icon" />
+            <img src={IconThree} alt="icon" />
             <div>
               <h3>Therapy</h3>
               <p>
