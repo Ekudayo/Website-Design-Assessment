@@ -5,7 +5,7 @@ import logoOne from "../../assets/LogoOne.png";
 import logoThree from "../../assets/LogoThree.png";
 import logoFour from "../../assets/LogoFour.png";
 import logoSix from "../../assets/LogoSix.png";
-import logoFive from "../../assets/LogoFive.png";     
+import logoFive from "../../assets/LogoFive.png";
 const Know = () => {
   return (
     <section>

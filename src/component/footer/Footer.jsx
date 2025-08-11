@@ -31,9 +31,7 @@ const Footer = () => {
       <div className={styles.formFilling}>
         <h1>Subscribe to get latest updates</h1>
         <div className={styles.for}>
-          <form className={styles.form} id="message" action="search">
-            <input type="text" placeholder="Your email" />
-          </form>
+          <input type="text" placeholder="Your email" />
           <Subscribe className={styles.Subscribe} />
         </div>
       </div>

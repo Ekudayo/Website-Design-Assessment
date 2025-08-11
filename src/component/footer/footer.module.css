@@ -41,17 +41,29 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background-color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+width: 400px;
+
+}
+.for input{
+  width: 300px;
+  height: 2rem;
+ padding: 5px;
 }
 .form {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 2rem;
+
 }
 .form input {
-  height: 2rem;
+  height: 1.5rem;
   width: 200px;
   border: none;
+
 }
 @media (max-width: 1040px) {
   .footer {
@@ -67,11 +79,15 @@
     font-size: 2rem;
   }
 .for{
-  font-size: 2.5rem;
+width: 90%;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   margin-bottom: 2rem;
+}
+.for input{
+  height: 2rem;
+ width: 50%;
 }
   .formFilling {
     gap: 2rem;
