@@ -48,4 +48,3 @@ const Our = () => {
 };
 
 export default Our;
-
