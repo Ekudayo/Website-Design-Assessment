@@ -1,8 +1,8 @@
 import styles from "../whatHome/whatHome.module.css";
-import icon from "../../assets/icon.png";
-import iconOne from "../../assets/iconOne.png";
-import iconTwo from "../../assets/iconTwo.png";
-import iconThree from "../../assets/iconThree.png";
+import icon from "../../assets/Icon.png";
+import iconOne from "../../assets/IconOne.png";
+import iconTwo from "../../assets/IconTwo.png";
+import iconThree from "../../assets/IconThree.png";
 import smallBoy from "../../assets/samllboy.png";
 
 const WhatHome = () => {
