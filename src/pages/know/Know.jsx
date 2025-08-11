@@ -1,5 +1,11 @@
 import styles from "../know/know.module.css";
 import Learn from "../../events/Learn.jsx";
+import childrenImage from "../../assets/children.jpg";
+import logoOne from "../../assets/LogoOne.png";
+import logoThree from "../../assets/LogoThree.png";
+import logoFour from "../../assets/LogoFour.png";
+import logoSix from "../../assets/LogoSix.png";
+import logoFive from "../../assets/LogoFive.png";     
 const Know = () => {
   return (
     <section>
@@ -23,19 +29,19 @@ const Know = () => {
           </div>
         </div>
 
-        <img src="./src/assets/children.jpg" alt="picture" />
+        <img src={childrenImage} alt="Children" />
       </div>
       <div>
         <div className={styles.support}>
           <span> Our Supporter</span> <hr className={styles.lineTwo} />
         </div>
         <div className={styles.logos}>
-          <img src="./src/assets/LogoThree.png" alt="Logos" />
-          <img src="./src/assets/LogoOne.png" alt="Logos" />
-          <img src="./src/assets/LogoThree.png" alt="Logos" />
-          <img src="./src/assets/LogoSix.png" alt="Logos" />
-          <img src="./src/assets/LogoFour.png" alt="Logos" />
-          <img src="./src/assets/LogoSix.png" alt="Logos" />
+          <img src={logoOne} alt="Logos" />
+          <img src={logoThree} alt="Logos" />
+          <img src={logoSix} alt="Logos" />
+          <img src={logoFour} alt="Logos" />
+          <img src={logoFive} alt="Logos" />
+          <img src={logoSix} alt="Logos" />
         </div>
       </div>
     </section>
