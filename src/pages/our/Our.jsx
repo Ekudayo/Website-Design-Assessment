@@ -1,5 +1,5 @@
 import styles from "../our/our.module.css";
-import React from "react";
+import Arrow from "../../assets/Arrow.png";
 
 const Our = () => {
   return (
@@ -39,7 +39,7 @@ const Our = () => {
             <h3>Seminar: Caring for children with autism </h3>
           </div>
           <div className={styles.arrow}>
-            <img src="./src/assets/Arrow.png" alt="Arrow" />
+            <img src={Arrow} alt="Arrow" />
           </div>
         </div>
       </div>
