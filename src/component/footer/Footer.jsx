@@ -1,9 +1,10 @@
 import styles from "../footer/footer.module.css";
 import Subscribe from "../../events/Subscribe";
+import ngoLogo from "../../assets/ngo.png";
 const Footer = () => {
   return (
     <div className={styles.footer}>
-      <img src="./src/assets/ngo.png" alt="" />
+      <img src={ngoLogo} alt="NGO Logo" />
 
       <ul className={styles.nav}>
         <li>Home</li>

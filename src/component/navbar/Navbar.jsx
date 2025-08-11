@@ -5,6 +5,7 @@ import { FaBars } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { VscChromeClose } from "react-icons/vsc";
 import Donate from "../../events/Donate";
+import ngoLogo from "../../assets/ngo.png";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const toggleBar = () => {
@@ -22,7 +23,7 @@ const Navbar = () => {
       <header>
         <nav className={styles.navbar}>
           <div className={styles.logo}>
-            <img src="./src/assets/ngo.png" alt="NGO Logo" />
+            <img src={ngoLogo} alt="NGO Logo" />
             {/* <h2>Trafalgar</h2> */}
           </div>
           <ul className={`${styles.navLists} ${open ? styles.show : ""}`}>
