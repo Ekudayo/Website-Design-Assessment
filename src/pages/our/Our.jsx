@@ -1,5 +1,5 @@
 import styles from "../our/our.module.css";
-import Arrow from "../../assets/Arrow.png";
+import Arrow from "../../assets/arrow.png";
 
 const Our = () => {
   return (
