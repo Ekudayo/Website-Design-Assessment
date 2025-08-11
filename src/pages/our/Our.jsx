@@ -23,7 +23,7 @@ const Our = () => {
             <h3>A day with our wonderful children </h3>
           </div>
           <div className={styles.arrow}>
-            <img src={Arrow} alt="Arrow" />
+            <img src="./src/assets/Arrow.png" alt="Arrow" />
           </div>
         </div>
         <div className={styles.down}>
@@ -48,3 +48,4 @@ const Our = () => {
 };
 
 export default Our;
+
